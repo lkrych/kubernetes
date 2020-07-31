@@ -14,5 +14,8 @@ kube-pod-ls:
 kube-deployments-ls:
 	kubectl get deployments
 
-kube-describe:
+kube-deployments-info:
 	kubectl describe deployments/demo
+
+kube-nodes-ls:
+	kubectl get nodes
